@@ -1,4 +1,4 @@
 extends layout
 
 block content
-  h1= title
+  h1= `your IP Address is:: ${req.ip.toString().replace('::ffff:', '')}`
